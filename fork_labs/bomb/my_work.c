@@ -1,12 +1,24 @@
 401338 strings_not_equal(a, b) {
     bx = a
     bp = b
-    12d = string_length(a)
-    ax = string_length(b)
+    la = 12d = string_length(a)
+    lb = ax = string_length(b)
     dx = 1
-    if (12d != ax) {
-        string not equal
+    if (la != lb) {
+        return 1
     }
-    (al = al)
-
+    ax = *(bx)
+    if (ax != null) {
+        if (bp == al) {
+            1372
+        } else {
+            bx++;
+            bp++
+        }
+    } else {
+        return 0
+    }
+    138
 }
+
+phase1 -> 0x402400 = "@$\0"
